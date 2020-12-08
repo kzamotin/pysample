@@ -3,7 +3,7 @@ Basic auto tests wor wallet functionality
 """
 
 import pytest
-from wallet import Wallet
+from app.wallet import Wallet
 
 
 @pytest.mark.smoke
