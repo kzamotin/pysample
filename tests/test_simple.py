@@ -50,7 +50,7 @@ def test_make_not_empty_wallet():
     Make wallet by negative of funds amount
     """
     test_wallet = Wallet(-1)
-    assert test_wallet.balance() >= 0
+    assert test_wallet.balance() == 0
 
 
 @pytest.mark.xfail
@@ -74,9 +74,10 @@ def test_make_wrong_payment_amount():
     try:
         second_wallet.make_payment(first_wallet, 'asd')
 
-    except Exception:
+    except TypeError:
         assert False
-
+    finally:
+        assert False
 
 
 TEST_DATA = [
