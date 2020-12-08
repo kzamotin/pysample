@@ -21,3 +21,7 @@ pytest -v --alluredir=alluredir
 ```
 allure serve ./alluredir
 ```
+
+### Sample test suite
+
+![Status](https://github.com/kzamotin/pysample/raw/main/allure_report.png)
