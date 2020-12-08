@@ -1,19 +1,40 @@
+"""
+Wallet class
+"""
+
+
 class Wallet(object):
+    """
+    The Wallet class
+    """
     def __init__(self, amount):
-        self.__amount = amount if amount>0 else 0
-    
-    def addMoney(self, amount):
+        """
+        Initialisation of wallet amount
+        :param amount:
+        """
+        self.__amount = amount if amount > 0 else 0
+
+    def add_money(self, amount):
+        """
+        Add some money to wallet
+        :param amount:
+        :return:
+        """
         self.__amount += amount
 
-    def makePaymet(self, wallet, amount):
+    def make_payment(self, wallet, amount):
+        """
+        Make payment from wallet to wallet
+        :param wallet:
+        :param amount:
+        :return:
+        """
         self.__amount -= amount
-        wallet.addMoney(amount)
-    
+        wallet.add_money(amount)
+
     def balance(self):
+        """
+        Method for know the wallet balance
+        :return:
+        """
         return self.__amount
-
-
-A=Wallet(10)
-B=Wallet(-10)
-B.makePaymet(A,5)
-print(A.balance(), B.balance())
