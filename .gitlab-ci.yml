@@ -1,4 +1,3 @@
---- 
 stages: 
   - testing
 tester_job: 
