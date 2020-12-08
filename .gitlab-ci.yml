@@ -1,15 +1,15 @@
-stages:
-  - testing 
-
+--- 
+stages: 
+  - testing
 tester_job: 
-  stage: testing 
-  tags:
-    - tester
-    script:
-    - pytest --alluredir=./allure-results 
-  allow_failure: true 
+  allow_failure: true
   artifacts: 
-    when: always 
-    paths:
-      - ./allure-results 
-    expire_in: 1 day 
+    expire_in: "1 day"
+    paths: 
+      - ./allure-results
+    when: always
+  script: 
+    - "pytest --alluredir=./allure-results"
+  stage: testing
+  tags: 
+    - tester
