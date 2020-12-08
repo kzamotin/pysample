@@ -1,5 +1,9 @@
 # Changelog
 
+### 08.12.2020
+
+- Travic-ci integration
+
 ### 04.12.2020
 
 - Added an example of working with pytest
@@ -25,3 +29,4 @@ allure serve ./alluredir
 ### Sample test suite
 
 ![Status](https://github.com/kzamotin/pysample/raw/main/allure_report.png)
+![](https://travis-ci.org/kzamotin/pysample.svg?branch=main&status=passed)
