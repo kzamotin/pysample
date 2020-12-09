@@ -32,6 +32,6 @@ allure serve ./alluredir
 
 ![](https://travis-ci.org/kzamotin/pysample.svg?branch=main&status=passed)
 
-[![pipeline status](https://gitlab.com/kzamotin/pysample/badges/main/pipeline.svg)](https://gitlab.com/kzamotin/pysample/-/commits/main)
+![pipeline status](https://gitlab.com/kzamotin/pysample/badges/main/pipeline.svg)
 
-![coverage report](https://gitlab.com/kzamotin/pysample/badges/main/coverage.svg)](https://gitlab.com/kzamotin/pysample/-/commits/main)
+![coverage report](https://gitlab.com/kzamotin/pysample/badges/main/coverage.svg)
