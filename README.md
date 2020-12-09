@@ -28,5 +28,7 @@ allure serve ./alluredir
 
 ### Sample test suite
 
-![Status](https://github.com/kzamotin/pysample/raw/main/allure_report.png)
+[Interactive test results](https://kzamotin.gitlab.io/-/pysample/-/jobs/899795060/artifacts/public/index.html)
+
+
 ![](https://travis-ci.org/kzamotin/pysample.svg?branch=main&status=passed)
