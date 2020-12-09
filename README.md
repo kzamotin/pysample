@@ -30,5 +30,8 @@ allure serve ./alluredir
 
 [Interactive test results](https://kzamotin.gitlab.io/-/pysample/-/jobs/899795060/artifacts/public/index.html)
 
-
 ![](https://travis-ci.org/kzamotin/pysample.svg?branch=main&status=passed)
+
+[![pipeline status](https://gitlab.com/kzamotin/pysample/badges/main/pipeline.svg)](https://gitlab.com/kzamotin/pysample/-/commits/main)
+
+![coverage report](https://gitlab.com/kzamotin/pysample/badges/main/coverage.svg)](https://gitlab.com/kzamotin/pysample/-/commits/main)
